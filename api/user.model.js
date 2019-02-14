@@ -26,6 +26,6 @@ let User = new Schema({
   }
 },{
     collection: 'Users'
-});
+});  
 mongoose.set('useAndModify', false);
 module.exports = mongoose.model('User', User);
